@@ -1,0 +1,245 @@
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 991px) {
+  header {
+    background: #000000;
+    box-shadow: 0px 0px 6px 0px rgb(48 45 45 / 10%);
+    /* backdrop-filter: saturate(180%) blur(15px); */
+    position: fixed;
+  }
+  .htr-inner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: #fff;
+    width: 90%;
+    max-width: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    text-align: left;
+    padding-top: 0;
+    padding-left: 0;
+    box-shadow: 0 0 10px rgb(0 0 0 / 20%);
+    z-index: 999;
+    transition: all 300ms;
+    height: 100vh;
+  }
+  body:not(.menu-open) .htr-inner {
+    transform: translateX(-120%);
+  }
+  body.menu-open .hdr-top .overlay {
+    opacity: 1;
+    visibility: visible;
+  }
+  nav ul {
+    flex-wrap: wrap;
+    max-height: 100%;
+    overflow: auto;
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+    gap: 0px;
+  }
+  nav ul li {
+    width: 100%;
+  }
+  nav ul li a {
+    padding: 10px 20px;
+    color: #000000;
+    border-bottom: unset;
+  }
+  nav ul li a:hover,
+  nav ul li.active a,
+  nav ul li a:focus {
+    color: #000;
+    border-bottom: unset;
+  }
+  nav ul li + li {
+    border-top: 1px solid #eee;
+  }
+  nav ul li a:before {
+    background-color: #fce824;
+  }
+  .menu-icon,
+  .close-menu {
+    display: block;
+  }
+
+  nav ul li:last-child {
+    display: block;
+  }
+
+  .bnr-description h1 {
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  .top-heading h3 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  /* form */
+  .banner-section {
+    height: 86vh;
+  }
+  .regstr-bnr-main {
+    max-width: 450px;
+    width: 100%;
+  }
+  .regstr-bnr-dscrp h3 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+  .form-flex {
+    gap: 10px;
+  }
+  .top-heading h3 {
+    font-size: 26px;
+    line-height: 32px;
+  }
+  .about-descrption h3 {
+    font-size: 35px;
+    line-height: 40px;
+}
+}
+
+@media screen and (min-width: 768px) {
+  header.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    animation: topToBottom 300ms linear;
+    box-shadow: 0px 0px 6px 0px rgb(48 45 45 / 10%);
+    background: #000;
+  }
+}
+
+@media screen and (max-width: 767px) {
+    /* header */
+
+    .hdr-logo a img {
+        width: 65px;
+    }   
+    .bnr-descrp h1 {
+        font-size: 25px;
+        line-height: 32px;
+    }
+    .bnr-btn {
+        margin:15px 0 0 0;
+    }
+    .about-section {
+        padding: 30px 0 0;
+    }
+    .top-heading {
+        margin-bottom: 30px;
+    }
+    .top-heading h3 {
+        font-size: 22px;
+        line-height: 28px;
+      }
+    .top-heading p {
+        font-size: 14px;
+    }
+    .sumrcamp-descrption h3 {
+        font-size: 22px;
+    }
+    .main-flex {
+        flex-wrap: wrap;
+    }
+    .inner-flex-50 {
+        width: 100%;
+    }
+    .about-descrption h3 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .sumrcamp-section {
+        padding: 30px 0 0 0;
+    }
+    .sumrcamp-list ul li{
+        width: 100%;
+    }
+    .faq-section {
+        padding: 40px 0;
+    }   
+    .accordian-main .accordian-head h3 {
+        font-size: 16px;
+    }
+
+    .sponsor-section {
+        padding-bottom: 40px;
+    }
+    .sponsorship-btns {
+        gap: 10px 14px;
+        flex-wrap: wrap;
+    }
+    .sponsorship-btns-inner {
+        width: 100%;
+    }
+    .ftr-flex {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    
+    .ftrmenu-main {
+        flex-wrap: wrap;
+    }
+    
+    .ftrmenu-link ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    .ftrmenu-link ul li+li {
+        margin-top: 0;
+    }
+    
+    .social-links ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px 15px;
+    }
+    .social-links ul li+li {
+        margin-top: 0;
+    }
+   
+  /* form */
+  .banner-section:before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: rgb(0 0 0 / 50%);
+}
+.contact-section {
+    padding: 40px 0;
+}
+.logo-innerpage img {
+    width: 120px;
+}
+  .frm-inner-flx-50 {
+    width: 100%;
+  }
+
+  .frm-inner-flx-50 + .frm-inner-flx-50 {
+    margin-top: 5px;
+  }
+  .singel-input label {
+    margin-bottom: 3px;
+}
+ 
+  .width-800 {
+    padding: 15px;
+  }
+  .regstr-bnr-dscrp h3 {
+    font-size: 28px;
+    line-height: 38px;
+  }
+  .bnr-descrp {
+    text-align: start;
+  }
+}
