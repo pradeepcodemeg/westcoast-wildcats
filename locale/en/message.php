@@ -1,16 +1,16 @@
 <?php
 
 $langArr = [
-    'Westcoast_Wildcats'  =>  'Westcoast Wildcats',
+    'Westcoast_Wildcats'  =>  'WestCoast WildCats',
     'Home'  =>  'Home',
-    'Summer_Camp'  =>  'SUMMAR CAMP',
+    'Summer_Camp'  =>  'SUMMER CAMP',
     'Contact' => 'Contact',
     'About'  =>  'ABOUT',
     'Home_Banner_Heading_First' => 'JOIN OUR JOURNEY TODAY ',
-    'Home_Banner_Heading_Last' => 'REGISTER OF INTEREST TO BECOME WildCat',
+    'Home_Banner_Heading_Last' => 'REGISTER OF INTEREST TO BECOME A PLAYER',
     'Register_Now' => 'REGSITER NOW',
-    'We_Help_You_Reach_Your' => 'VWE HELP YOU REACH YOUR',
-    'Basketball_And_Life_Goal' => 'BASKETBALL AND LIFE GOAL',
+    'We_Help_You_Reach_Your' => 'WE LIVE FOR',
+    'Basketball_And_Life_Goal' => 'BASKETBALL',
     'About_Detail_Description' => 'Our goal is to develop the kids and teenagers to teach thier maximum capacity. Both on and off court.',
     'Summer_Camp_Top_Descrp'  =>  'Fundamental skills camp and development, plus much more.',
      'Ages' => 'Ages',
@@ -20,7 +20,7 @@ $langArr = [
     'Coming_Later'  =>  'coming later',
     'Frequently'  =>  'FREQUENTLY',
     'Asked_Questions'  =>  'ASKED QUESTIONS',
-    'Faq_heading_First' => 'How many do we have ?',
+    'Faq_heading_First' => 'How many teams do we have ?',
     'Faq_Description_First' => 'Our goal is to have both kids, boys and girls teams before session 2024-2025 is starting.',
     'Faq_heading_Second' => 'What does it fee to join us ?',
     'Faq_Description_Second' => 'We will send out this information during the next weeks.',
@@ -51,7 +51,7 @@ $langArr = [
      'Submit_Form' => 'Submit Form',
 
 
-          'Registration_Banner_Heading_First'  => 'EXPRESSION OFINTEREST TO START',
+          'Registration_Banner_Heading_First'  => 'EXPRESSION OF INTEREST TO START',
           'Registration_Banner_Heading_Last' => 'PLAYING BASKETBALL',
           'Registration_Banner_Para_Descrp_First' => 'This is just a survey to guage interest in joining our adventure starting this fall.',
           'Registration_Banner_Para_Descrp_Second' => 'Registration is not binding, but we hope you will join us on this journey!',
@@ -61,7 +61,7 @@ $langArr = [
           'Enter_Your_Phone_Number' => 'Enter Your Phone No.',
           'Phone' => 'Phone',
           'Player' => 'Player',
-          'Basketball_Experince' => 'BASKETBALL EXPERIENCE(YEARS & MONTHS)',
+          'Basketball_Experince' => 'BASKETBALL EXPERIENCE(YEARS)',
           'Date_Of_Birth' => 'Date Of Birth',
           
           'Coach_Top_Heading_First'  => 'WE ARE LOOKING FOR BASKETBALL COACHES NOW!',
@@ -70,4 +70,9 @@ $langArr = [
 
           'Sponsor_Top_Heading_First' => 'ARE YOU INTERESTED TO',
           'Sponsor_Top_Heading_Last' => 'BECOME A SPONSOR?',
+          'Wildcats' => 'Wildcats',
+          'Teams' => 'Teams',
+          'Easy_Basket' => 'Easy Basket',
+          'Youth_Academy' => 'Youth Academy',
+          'Year' => 'Year',
 ];

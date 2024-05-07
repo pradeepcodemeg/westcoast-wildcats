@@ -92,6 +92,132 @@ require_once 'language.php';
                 </div>
             </div>
         </section>
+        <section class="teams-section">
+            <div class="container">
+                <div class="top-heading">
+                    <h3><?= $langArr['Wildcats'] ?> <span><?= $langArr['Teams'] ?></span></h3>
+                </div>
+                <div class="main-flex">
+                    <div class="inner-flex-50">
+                      <div class="teams-list">
+                        <ul>
+                            <li>
+                                <div class="teamsname-wthbg">
+                                    <span style="background-image: url(assets/images/team-1.jpg);"></span>
+                                    <div class="yuthacdmy-bg">
+                                    <p><?= $langArr['Youth_Academy'] ?>  7-9 <?= $langArr['Year'] ?></p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="teamsname-wthbg">
+                                    <span style="background-image: url(assets/images/team-2.jpg);"></span>
+                                    <div class="yuthacdmy-bg">
+                                    <p><?= $langArr['Youth_Academy'] ?>  10-11 <?= $langArr['Year'] ?></p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="inner-flex-50">
+                        <div class="baset-btn">
+                            <button class="btn primary-btn"><?= $langArr['Easy_Basket'] ?> U12</button>
+                        </div>
+                       <div class="teams-flex">
+                       <div class="teams-inner-flex">
+               <div class="teamsbg-small">
+                  <span style="background-image: url(assets/images/team-3.jpg);"></span>
+               </div>
+</div>
+<div class="teams-inner-flex">
+ <div class="teamsbg-playrlist">
+                <ul>
+                    <li>
+                        <span class="player-numbr">HU13</span>
+                    </li>
+                    <li>
+                        <span class="player-numbr">HU14</span>
+                    </li>
+                    <li>
+                        <span class="player-numbr">HU15</span>
+                    </li>
+                    <li>
+                        <span class="player-numbr">HU16</span>
+                    </li>
+                    <li>
+                        <span class="player-numbr">HU17</span>
+                    </li>
+                    <li>
+                        <span class="player-numbr">HU18</span>
+                    </li>
+                    <li>
+                        <span class="player-numbr">HU19</span>
+                    </li>
+                    <li>
+                        <span class="player-numbr">HU24</span>
+                    </li>
+                </ul>
+               </div>
+</div>
+                       </div>
+                       <div class="teams-flex">
+                       <div class="teams-inner-flex">
+               <div class="teamsbg-small">
+                  <span style="background-image: url(assets/images/team-4.jpg);"></span>
+               </div>
+</div>
+<div class="teams-inner-flex">
+ <div class="teamsbg-playrlist">
+                <ul>
+                    <li>
+                        <span class="player-numbr">DU13</span>
+                    </li>
+                    <li>
+                        <span class="player-numbr">DU14</span>
+                    </li>
+                    <li>
+                        <span class="player-numbr">DU15</span>
+                    </li>
+                    <li>
+                        <span class="player-numbr">DU16</span>
+                    </li>
+                    <li>
+                        <span class="player-numbr">DU17</span>
+                    </li>
+                    <li>
+                        <span class="player-numbr">DU18</span>
+                    </li>
+                    <li>
+                        <span class="player-numbr">DU19</span>
+                    </li>
+                    <li>
+                        <span class="player-numbr">DU24</span>
+                    </li>
+                </ul>
+               </div>
+</div>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sponsor-section">
+            <div class="container">
+                <div class="top-heading">
+                    <h3><?= $langArr['Passionate_About_Coaching_Youth'] ?> <span><?= $langArr['Interested_In_Sponsoring_Us'] ?></span></h3>
+                </div>
+                <div class="sponsorship-btns">
+                    <div class="sponsorship-btns-inner">
+                        <a href="coach-registration.php" class="btn secondary-btn"><?= $langArr['Register_As_A_Coach'] ?></a>
+                    </div>
+                    <div class="sponsorship-btns-inner">
+                        <a href="sponsor-registration.php" class="btn secondary-btn"><?= $langArr['Register_As_A_Sponsor'] ?></a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
         <section class="about-section" id="about">
             <div class="container">
                 <div class="main-flex">
@@ -292,22 +418,7 @@ require_once 'language.php';
                 </div>
             </div>
         </section>
-        <section class="sponsor-section">
-            <div class="container">
-                <div class="top-heading">
-                    <h3><?= $langArr['Passionate_About_Coaching_Youth'] ?> <span><?= $langArr['Interested_In_Sponsoring_Us'] ?></span></h3>
-                </div>
-                <div class="sponsorship-btns">
-                    <div class="sponsorship-btns-inner">
-                        <a href="coach-registration.php" class="btn secondary-btn"><?= $langArr['Register_As_A_Coach'] ?></a>
-                    </div>
-                    <div class="sponsorship-btns-inner">
-                        <a href="sponsor-registration.php" class="btn secondary-btn"><?= $langArr['Register_As_A_Sponsor'] ?></a>
-                    </div>
-                </div>
-            </div>
-
-        </section>
+    
     </main>
     <footer>
         <div class="ftr-top">
