@@ -381,7 +381,7 @@ require_once 'language.php';
                                             </span>
                                         </div>
                                         <div class="accordian-content">
-                                            <p><?= $langArr['Faq_Description_First'] ?>Our goal is to have both kids , så boys and girls team before season 2024-25 is starting </p>
+                                            <p><?= $langArr['Faq_Description_First'] ?></p>
                                         </div>
                                     </div>
                                 </li>

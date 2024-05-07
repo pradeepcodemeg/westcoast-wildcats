@@ -109,8 +109,7 @@ require_once 'language.php';
       <div class="container">
         <form id="enquiry_form" action="POST">
           <div class="top-heading">
-            <h3><?= $langArr['Parent'] ?>
-              <span><?= $langArr['Details'] ?></span>
+            <h3><?= $langArr['Parent'] ?><span><?= $langArr['Details'] ?></span>
             </h3>
           </div>
           <div class="width-900">
