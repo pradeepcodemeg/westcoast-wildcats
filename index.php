@@ -268,7 +268,7 @@ require_once 'language.php';
                                         </span>
                                     </div>
                                     <div class="sumrcamp-descrption">
-                                        <h3><?= $langArr['Ages'] ?> 8-12</h3>
+                                        <h3><?= $langArr['Ages_1'] ?></h3>
                                         <div class="sumrcamp-dtls-wthicon">
                                             <span>
                                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -315,7 +315,7 @@ require_once 'language.php';
                                         </span>
                                     </div>
                                     <div class="sumrcamp-descrption">
-                                        <h3><?= $langArr['Ages'] ?> 13-16</h3>
+                                        <h3><?= $langArr['Ages_2'] ?></h3>
                                         <div class="sumrcamp-dtls-wthicon">
                                             <span>
                                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">

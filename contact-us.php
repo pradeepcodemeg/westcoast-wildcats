@@ -96,7 +96,7 @@ require_once 'language.php';
             <div class="container">
                 <form method="POST" id="enquiry_form" action="mail.php">
                     <div class="top-heading">
-                        <h3><?= $langArr['Connect'] ?> <span><?= $langArr['With_Us'] ?></span></h3>
+                        <h3><?= $langArr['Contact1'] ?> <span><?= $langArr['Us'] ?></span></h3>
                     </div>
                     <div class="width-800">
                         <div class="from-main">
