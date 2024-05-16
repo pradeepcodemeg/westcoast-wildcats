@@ -11,8 +11,8 @@ if ($_POST && $_POST['first_name'] && $_POST['last_name'] && $_POST['email']) {
         $mail = new PHPMailer(true);
         setupMailer($mail);  // user defined function
 
-        $mail->addAddress('info@wildcatsbasket.se', 'Sales Team');
-        // $mail->addAddress('pradeep.codemegsoft@gmail.com', 'Sales Team');
+        // $mail->addAddress('info@wildcatsbasket.se', 'Sales Team');
+        $mail->addAddress('pradeep.codemegsoft@gmail.com', 'Sales Team');
 
         $mail->Subject  =   'Enquiry Form Mail';
         $mail->Body     =   emailContentForAdmin($_POST); // content for admin
@@ -136,7 +136,7 @@ function emailContentForUser($formData)
                                                                         <td align="center" valign="middle" style="text-align: center;padding-top: 15px;padding-bottom: 5px;">
                                                                             <p style="margin-bottom: 0; margin-top: 0;">
                                                                                 <a href="#">
-                                                                                    <img src="assets/images/logo.png" alt="Westcoast Wildcats" width="170" style="border: none; display: inline; font-weight: bold; height: auto; outline: none; text-decoration: none; text-transform: capitalize; font-size: 14px; line-height: 25px; width: 100%; max-width: 170px;"> </a>
+                                                                                    <img src="https://wildcatsbasket.se/assets/images/logo.png" alt="Westcoast Wildcats" width="170" style="border: none; display: inline; font-weight: bold; height: auto; outline: none; text-decoration: none; text-transform: capitalize; font-size: 14px; line-height: 25px; width: 100%; max-width: 70px;"> </a>
                                                                             </p>
                                                                         </td>
                                                                     </tr>
