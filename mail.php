@@ -11,7 +11,7 @@ if ($_POST && $_POST['first_name'] && $_POST['last_name'] && $_POST['email']) {
         $mail = new PHPMailer(true);
         setupMailer($mail);  // user defined function
 
-        // $mail->addAddress('info@wildcatsbasket.se', 'Sales Team');
+        $mail->addAddress('info@wildcatsbasket.se', 'Sales Team');
         $mail->addAddress('pradeep.codemegsoft@gmail.com', 'Sales Team');
 
         $mail->Subject  =   'Enquiry Form Mail';
