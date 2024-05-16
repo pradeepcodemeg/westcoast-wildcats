@@ -365,7 +365,7 @@ require_once 'language.php';
                 <div class="main-flex">
                     <div class="inner-flex-50">
                         <div class="faq-image">
-                            <img src="assets/images/faq-bg.jpg" alt="">
+                            <img src="assets/images/logo-inner.png" alt="">
                         </div>
                     </div>
                     <div class="inner-flex-50">
