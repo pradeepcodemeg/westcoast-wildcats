@@ -7,12 +7,27 @@ use PHPMailer\PHPMailer\Exception;
 
 if ($_POST && $_POST['first_name'] && $_POST['last_name'] && $_POST['email']) {
     try {
-        // ==================== Send email to the admin =================
         $mail = new PHPMailer(true);
         setupMailer($mail);  // user defined function
 
+
         $mail->addAddress('info@wildcatsbasket.se', 'Sales Team');
         // $mail->addAddress('pradeep.codemegsoft@gmail.com', 'Sales Team');
+
+
+        $mail->Subject  =   'Enquiry Form Mail';
+        $mail->Body     =   emailContentForAdmin($_POST); // content for admin
+
+        // Send email to the admin
+        $mail->send();
+
+
+
+        // Send email to the user
+        $mailUser = new PHPMailer(true);
+        setupMailer($mailUser);  // user defined function
+
+        $mailUser->addAddress($_POST['email'], 'Sales Team');
 
         $mail->Subject  =   'Enquiry Form Mail';
         $mail->Body     =   emailContentForAdmin($_POST); // content for admin
@@ -32,7 +47,6 @@ if ($_POST && $_POST['first_name'] && $_POST['last_name'] && $_POST['email']) {
         $mailUser->Body     =   emailContentForUser($_POST); // content for user defined below
 
         $mailUser->send();
-
 
         $message = 'Your request has been submitted successfully. We will contact you shortly.';
 
