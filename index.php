@@ -469,13 +469,13 @@ require_once 'language.php';
                                 <div class="social-links">
                                     <ul>
                                         <li>
-                                            <a href="#">
+                                        <a href="https://www.facebook.com/people/WestCoast-WildCats/61559795638128/?mibextid=LQQJ4d&rdid=8vBXGAF8r39E3cPh&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1iqm2KZqCXXf8jFD%2F%3Fmibextid%3DLQQJ4d" target="_blank">
                                                 <span><i class="fa fa-facebook" aria-hidden="true"></i></span>
                                                 Facebook
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#">
+                                        <a href="https://www.instagram.com/westcoastbasket?igsh=MXVnenBmNjMyOG96dg%3D%3D&utm_source=qr" target="_blank">
                                                 <span><i class="fa fa-instagram" aria-hidden="true"></i></span>
                                                 Instagram
                                             </a>
