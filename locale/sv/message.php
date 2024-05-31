@@ -81,5 +81,5 @@ $langArr = [
     'Year' => 'År',
     'Contact1' => 'KONTAKTA',
     'Us' => 'OSS',
-    
+    'Join_here' => 'Bli medlem',
 ];

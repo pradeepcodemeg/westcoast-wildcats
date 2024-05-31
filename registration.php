@@ -226,32 +226,50 @@ require_once 'language.php';
               <div class="ftrmenu-inner">
                 <h3><?= $langArr['Follow_Us'] ?></h3>
                 <div class="social-links">
-                  <ul>
-                    <li>
-                    <a href="https://www.facebook.com/people/WestCoast-WildCats/61559795638128/?mibextid=LQQJ4d&rdid=8vBXGAF8r39E3cPh&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1iqm2KZqCXXf8jFD%2F%3Fmibextid%3DLQQJ4d" target="_blank">
-                        <span><i class="fa fa-facebook" aria-hidden="true"></i></span>
-                        Facebook
-                      </a>
-                    </li>
-                    <li>
-                    <a href="https://www.instagram.com/westcoastbasket?igsh=MXVnenBmNjMyOG96dg%3D%3D&utm_source=qr" target="_blank">
-                        <span><i class="fa fa-instagram" aria-hidden="true"></i></span>
-                        Instagram
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <span><i class="fa fa-twitter" aria-hidden="true"></i></span>
-                        Twitter
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <span><i class="fa fa-linkedin" aria-hidden="true"></i></span>
-                        LinkedIn
-                      </a>
-                    </li>
-                  </ul>
+                <ul>
+                                        <li>
+                                            <a href="https://www.facebook.com/people/WestCoast-WildCats/61559795638128/?mibextid=LQQJ4d&rdid=8vBXGAF8r39E3cPh&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1iqm2KZqCXXf8jFD%2F%3Fmibextid%3DLQQJ4d" target="_blank">
+                                                <span>
+                                                    <svg width="10" height="18" viewBox="0 0 10 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M9.5 3H6.5C5.9477 3 5.5 3.44772 5.5 4V7H9.5C9.6137 6.99748 9.7216 7.0504 9.7892 7.1419C9.8568 7.2334 9.8758 7.352 9.84 7.46L9.1 9.66C9.0318 9.8619 8.8431 9.9984 8.63 10H5.5V17.5C5.5 17.7761 5.2761 18 5 18H2.5C2.22386 18 2 17.7761 2 17.5V10H0.5C0.22386 10 0 9.7761 0 9.5V7.5C0 7.2239 0.22386 7 0.5 7H2V4C2 1.79086 3.7909 0 6 0H9.5C9.7761 0 10 0.22386 10 0.5V2.5C10 2.77614 9.7761 3 9.5 3Z" fill="white" />
+                                                    </svg>
+                                                </span>
+                                                Facebook
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.instagram.com/westcoastbasket?igsh=MXVnenBmNjMyOG96dg%3D%3D&utm_source=qr" target="_blank">
+                                                <span>
+                                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M13 0H5C2.23858 0 0 2.23858 0 5V13C0 15.7614 2.23858 18 5 18H13C15.7614 18 18 15.7614 18 13V5C18 2.23858 15.7614 0 13 0ZM16.25 13C16.2445 14.7926 14.7926 16.2445 13 16.25H5C3.20735 16.2445 1.75549 14.7926 1.75 13V5C1.75549 3.20735 3.20735 1.75549 5 1.75H13C14.7926 1.75549 16.2445 3.20735 16.25 5V13ZM13.75 5.25C14.3023 5.25 14.75 4.80228 14.75 4.25C14.75 3.69772 14.3023 3.25 13.75 3.25C13.1977 3.25 12.75 3.69772 12.75 4.25C12.75 4.80228 13.1977 5.25 13.75 5.25ZM9 4.5C6.51472 4.5 4.5 6.51472 4.5 9C4.5 11.4853 6.51472 13.5 9 13.5C11.4853 13.5 13.5 11.4853 13.5 9C13.5027 7.8057 13.0294 6.65957 12.1849 5.81508C11.3404 4.97059 10.1943 4.49734 9 4.5ZM6.25 9C6.25 10.5188 7.4812 11.75 9 11.75C10.5188 11.75 11.75 10.5188 11.75 9C11.75 7.4812 10.5188 6.25 9 6.25C7.4812 6.25 6.25 7.4812 6.25 9Z" fill="white" />
+                                                    </svg>
+                                                </span>
+                                                Instagram
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.tiktok.com/@wildcatsbasket.se?_t=8mmCMfD65nl&_r=1" target="_blank">
+                                                <span>
+                                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M10.125 12.375C10.125 13.0796 9.91599 13.7683 9.52455 14.3542C9.1331 14.94 8.57675 15.3966 7.92582 15.6663C7.27487 15.936 6.55856 16.0066 5.86749 15.8691C5.17642 15.7317 4.54164 15.3923 4.04345 14.8941C3.54518 14.3959 3.20587 13.7611 3.06841 13.07C2.93095 12.3789 3.00154 11.6626 3.27123 11.0117C3.54087 10.3607 3.99748 9.80436 4.58332 9.41291C5.16916 9.02147 5.85792 8.81252 6.56251 8.8125" stroke="white" stroke-width="1.5" stroke-linecap="round" />
+                                                        <path d="M10.125 12.375V2.0625C10.125 3.75 12.375 6.75 15 6.75" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                    </svg>
+                                                </span>
+                                                Tiktok
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.youtube.com/@westcoastwildcats-tx4uy" target="_blank">
+                                                <span>
+                                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M13.0809 14.042C14.7401 14.1024 16.1352 12.8088 16.2 11.1497V6.85423C16.1352 5.19526 14.7401 3.90159 13.0809 3.96199H4.91903C3.25988 3.90159 1.86477 5.19526 1.79999 6.85423V11.1497C1.86477 12.8088 3.25988 14.1024 4.91903 14.042H13.0809Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M8.64576 6.96791L10.9217 8.51444C11.0691 8.60055 11.1598 8.75845 11.1598 8.92916C11.1598 9.09995 11.0691 9.25784 10.9217 9.34388L8.64576 11.0359C8.21376 11.3289 7.56 11.0791 7.56 10.6212V7.38119C7.56 6.92543 8.21448 6.67487 8.64576 6.96791Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                    </svg>
+                                                </span>
+                                                Youtube
+                                            </a>
+                                        </li>
+                                    </ul>
                 </div>
               </div>
             </div>

@@ -78,4 +78,5 @@ $langArr = [
           'Year' => 'Year',
           'Contact1' => 'Contact',
            'Us' => 'Us',
+           'Join_here' => 'Join here !',
 ];
